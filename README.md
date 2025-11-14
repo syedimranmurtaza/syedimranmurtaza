@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! I'm Syed Imran, a Software Engineer passionate about building solutions and innovating with tech.</h2>
+<h2 align="left">Hello! I'm Syed Imran Murtaza, I don’t just design websites, I design how audience feels..</h2>
 
 ###
 
