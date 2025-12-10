@@ -1,4 +1,9 @@
-<h2 align="left">I'm Syed Imran Murtaza, I don’t just design websites, I design how audience feels.</h2>
+<!-- Load Instrument Serif font -->
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+<h2 align="left" style="font-family:'Instrument Serif', serif; font-style:italic;">
+  I'm Syed Imran Murtaza, I don’t just design websites, I design how audience feels.
+</h2>
 
 <div align="center">
 
@@ -6,37 +11,14 @@
 <tr>
 <td>
 
-<pre style="font-family:Fira Code, monospace; font-size:14px; color:#00FF9D; background:#0d0d0d; padding:16px; border-radius:8px; width:420px;">
-public class Portfolio extends Experience {
-    private static final String VISION = "Design that feels alive";
-
-    public static void main(String[] args) {
-        new Portfolio().launch();
-    }
-
+<pre style="font-family:Fira Code, monospace; font-size:14px; color:#00FF9D; background:#0d0d0d; padding:16px; border-radius:8px; width:360px;">
+public class Portfolio {
+    private String vision = "Design that feels alive";
     public void launch() {
-        renderUI(createLayout(buildFlow(generateEmotion())));
-    }
-
-    private Emotion generateEmotion() {
-        return new Emotion.Builder()
-            .setDepth(100)
-            .setColorTheory("Vivid")
-            .setUserFocus("High")
-            .build();
-    }
-
-    private Flow buildFlow(Emotion emotion) {
-        return new Flow(emotion).optimize().animate().stabilize();
-    }
-
-    private Layout createLayout(Flow flow) {
-        return new Layout(flow)
-            .addLayers(12)
-            .addMicroInteractions()
-            .finalizeDesign();
-    }
-}
+        UI ui = new UI(vision);
+        ui.render(); }
+    public static void main(String[] args) {
+        new Portfolio().launch(); }}
 </pre>
 
 </td>
