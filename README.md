@@ -1,7 +1,4 @@
-<!-- Load Instrument Serif font -->
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-
-<h2 align="left" style="font-family:'Instrument Serif', serif; font-style:italic;">
+<h2 align="left" style="font-family:Georgia, 'Times New Roman', serif; font-style:italic;">
   I'm Syed Imran Murtaza, I don’t just design websites, I design how audience feels.
 </h2>
 
